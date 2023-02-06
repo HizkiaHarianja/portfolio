@@ -71,3 +71,32 @@ nav ul li a:hover {
   background: transparent;
   border: 1px solid #fff;
 }
+
+/* Responsive Media Queri CSS */
+@media (max-width: 750px) {
+  .container {
+    padding-top: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .logo {
+    font-size: 35px;
+  }
+}
+@media (max-width: 545px) {
+  .container {
+    padding-top: 20px;
+  }
+  .logo {
+    font-size: 23px;
+  }
+  .content {
+    margin-top: 20%;
+  }
+  .content h3 {
+    font-size: 38px;
+  }
+  nav ul li {
+    display: none;
+  }
+}
